@@ -9,7 +9,7 @@ function tips() {
 }
 
 function getBovadaLine() {
-    API key = 14043a85fb470c308148ab57ee534b27
+   // API key = 14043a85fb470c308148ab57ee534b27
 }
 
 function getPredictIQLine() {
@@ -33,4 +33,10 @@ function getPredictIQLine() {
 //             x.innerHTML = "An unknown error occurred."
 //             break;
 //     }
-// }
+var text, parser, xmlDoc;
+
+
+
+parser = new DOMParser();
+
+
